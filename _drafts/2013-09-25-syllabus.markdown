@@ -1,0 +1,173 @@
+---
+layout: post
+title:  "Syllabus"
+date:   2013-09-26
+---
+
+This course explores the principles and techniques for created modern web sites using HTML, CSS and javascript.
+
+## Helpful Links
+
+*   [Academic Calendar](http://drexel.edu/provost/calendars/)
+*   [Term Master Schedule](https://duapp2.drexel.edu/webtms_du/app)
+
+## Requirements
+
+*   DIGM 100
+*   [HTML and CSS: Design and Build Websites](http://htmlandcssbook.com) ([Amazon](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189%3FSubscriptionId%3DAKIAJYKJBAJTAUI7IXAQ%26tag%3Dcoursekit-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1118008189))
+*   This book is now available in the [Haggerty Library electronic resources](http://innoserv.library.drexel.edu/search~S9?/tHTML+and+CSS:+Design+and+Build+Websites/thtml+and+css+design+and+build+websites/1%2C1%2C2%2CB/frameset&amp;FF=thtml+and+css+design+and+build+websites&amp;1%2C%2C2).
+*   [Self hosted web domain](http://www.bluehost.com/track/UP/DREXEL)
+*   Removable storage
+
+## Learning Objectives
+
+By the end of the course, the successful student will understand the rules and principles of modern web design.
+
+## Course Format
+
+1.  Homework Review
+2.  Software Tutorial
+3.  Homework Overview
+4.  In-class lab time
+
+## Communication
+
+Any and all course email to instructor(s) must be sent from student drexel email account with “wbdv240″ somewhere in the meaningful subject area. (i.e. subject = “wbdv240-001 Help with timer”). Students must keep a copy of all email correspondence for their records.
+
+## Midterm Project
+
+### Full Size Web Comp
+
+Due Midnight before Week 5
+
+Description: A fully polished web design static graphic that looks like a screen grab.
+
+## Final Project
+
+### Static HTML portfolio website
+
+Due Midnight before Week 11
+
+__Description:__ A multipage website programmed with HTML/CSS displaying the student's online portfolio.
+
+### Grading criteria:
+
+#### Code Quality
+
+There are best practices listed under all of the lecture notes sections. Be sure to follow the rules and apply our techniques from class.
+
+*   validate your code, ([with Dreamweaver](http://tv.adobe.com/watch/cs-55-web-premium-feature-tour-/dreamweaver-cs-55-w3c-validation)) there should be no errors ([validator.w3.org](http://validator.w3.org/))
+*   follow the best practices listed on the [lecture notes page](index_lecture.html) regarding file names, characters and coding styles
+*   your code is legible and easy to navigate
+*   your code should use comments wherever possible
+
+
+#### Functionality
+
+Everything needs to work. All links, videos, audio, images, slideshows, rollovers etc. If it's part of your site, it should be working properly.
+
+#### Design
+
+Compare your midterm and your final website.
+
+*   Does everything look the same?
+*   Has the design changed?
+*   If it did, why?
+
+Enhancements are great. Changing something because you didn't get around to implementing it or couldn't figure it out are not valid excuses. If it was in your midterm it should be in your final, unless you have made it better or discussed in class with the instructor why something is changing prior to week 10.
+
+
+
+## Extra Credit Project
+
+TBD
+
+## Grading Policy
+
+Grading is based upon attendance, class participation, homework assignments, class projects, and a final exam.
+
+Homework Projects, based upon skill sets covered in each lesson, will be due by midnight the night before the following class. Each homework assignment is graded based on technique, creativity and being submitted on time.
+
+The dates your assignments are due are indicated clearly in this course outline. Assignments are due on those dates unless you have submitted a written request for an extension at least one class before the assignment is due. **<u>Late assignments receive zero points, no exceptions</u>**.
+
+Homework and Project grades based upon three criteria, Specifications, Content, and Creativity, broken down as follows:
+
+### Specifications:
+
+* Files/e-mails are named appropriately
+* Assignments requiring email submission should be sent to your instructor using the following format for the subject of the email: **wbdv240-hwk##-msd57**. Replace ## with the term week number, and replace msd57 with your email prefix. Submissions not following this format will not be accepted. No exceptions.
+* Assignments meet project size/color requirements
+* Assignments are completed on time
+
+### Content:
+
+*   Homework contains all requested elements
+*   Quality/Legibility of thumbnails/comps
+
+### Creativity:
+
+*   Level of detail in thinking
+*   Variety of ideas explored
+*   Focus on consistent strategy
+
+## Attendance Policy
+
+[Attendance is mandatory](http://www.drexel.edu/provost/policyweb/absence.html). Students are expected to attend all classes and strictly adhere to the project due dates. Lack of participation in class discussions will count against your grade.
+
+Students are allowed one unexcused absence.
+
+__If a student has more than one unexcused absence, his or her grade for the course will be reduced one letter grade.
+If a student has three absences, he or she will receive an F grade.__
+
+Note that an excused absence is defined as one that is the result of a condition or circumstance beyond the student’s control, such as illness, a family crisis or emergency, or some other serious and important personal circumstance. An absence will be excused only if there is documentation verifying the circumstances that caused the absence.
+
+**Arriving late to class will result in the loss of one point for each lateness.** 
+
+## Grading Percents
+
+*   100% or above A+
+*   95% to 99% = A
+*   90% to 94% = A-
+*   88% to 89% = B+
+*   83% to 87% = B
+*   80% to 82% = B-
+*   78% to 79% = C+
+*   73% to 77% = C
+*   70% to 72% = C-
+*   68% to 69% = D+
+*   65% to 67% = D
+*   64% or below = F
+
+## Student Responsibility
+
+*   Attend all classes
+*   Care about your work
+*   Make progress in the medium
+*   Help, cooperate and collaborate with your classmates
+*   Take risks
+*   Make mistakes
+*   Ask for Help
+
+## Academic Honesty Policy
+
+Drexel University is committed to a learning environment that embraces [academic honesty](http://www.drexel.edu/provost/policies/academic_dishonesty.asp). Faculty, students, and administrators share responsibility for maintaining this environment of academic honesty and integrity, accepting individual responsibility for all actions, personal and academic. Each member of our community is expected to read, understand, and uphold the values identified and described in our "Academic Polices, Procedures and Regulations" as written in the [official student handbook](http://drexel.edu/studentaffairs/community_standards/studentHandbook/). Instances of academic dishonesty, such as cheating and plagiarism, will be dealt with appropriately.
+
+## American's With Disabilities 
+
+In compliance with [Section 504 of the Rehabilitation Act of 1973](http://www.dol.gov/oasam/regs/statutes/sec504.htm#.UMYMHqXL0fI), the [Americans with Disabilities Act of 1990](http://www.ada.gov/pubs/ada.htm), and applicable federal and state laws, Drexel University ensures people with disabilities will have an equal opportunity to participate in its programs and activities. Members and guests of the Drexel community who have a disability need to register with the [Office of Disability Services (ODS)](http://www.drexel.edu/oed/disabilityResources/), if requesting auxiliary aids, accommodations, and services to participate in Drexel University’s programs. All requests for reasonable and appropriate auxiliary aids, academic adjustments, and services will be considered on a case-by-case basis and in a timely fashion.
+
+
+Office of Disability Services  
+3201 Arch Street, Suite 210  
+Philadelphia, PA 19104  
+Phone: 215.895.1401  
+TTY: 215.895.2299 (Reserved for those who are deaf or hard of hearing)  
+Fax: 215.895.1402  
+E-mail: [disability@drexel.edu](mailto:disability@drexel.edu)
+
+
+## Acknowledging Conditions and Obligations in Syllabus
+
+The student acknowledges receipt of this syllabus and the information herein contained by continuing to attend classes and turn in assignments.
+
+   

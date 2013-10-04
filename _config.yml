@@ -1,0 +1,4 @@
+name: Advanced Web Applications
+markdown: redcarpet
+pygments: true
+permalink: /:title

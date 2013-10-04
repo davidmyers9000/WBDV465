@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #111;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* LAYOUT */
+
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.row,
+[class*="span"] {
+  width: 100%;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+/* TYPE */
+
+h1,h2,h3 {
+  /*font-family: 'Vollkorn', serif;*/
+  font-family: "Montserrat", Impact, sans-serif;
+  font-family: "Montserrat", Impact, sans-serif;
+  line-height: 0.9em;
+  letter-spacing: -0.03em;
+  text-transform: none;
+  text-shadow: none;
+  margin: 5px 0;
+  font-weight: normal;
+}
+
+h3 {
+  color: #2a9c4c;
+}
+
+h4,h5,h6 {
+  font-weight: bold;
+}
+
+a {
+  color: #3d9ecf;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+h1 a {
+  color: inherit;
+}
+h1 a:hover { text-decoration: none; color: #3d9ecf; }
+
+p, li {
+  line-height: 1.5em;
+}
+
+pre, code {
+  font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+}
+
+pre {
+  padding: 10px;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+/* HELPERS */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clear {
+  clear: both;
+}
+
+.unstyled { padding-left: 0; }
+.unstyled li { list-style: none; }
+.unstyled li li { padding-left: 10px; }
+
+.horizontal li {
+  display: inline-block;
+}
+
+
+@media (min-width: 479px) {
+
+}
+
+@media (min-width: 767px) {
+  
+  [class*="span"] {
+    float: left;
+    padding-left: 40px;
+  }
+
+  .span-lead {
+    padding-left: 0;
+  }
+
+  .span1 {
+    width: 12.5%;
+  }
+  .span2 {
+    width: 25%;
+  }
+  .span3 {
+    width: 37.5%;
+  }
+  .span4 {
+    width: 50%;
+  }
+  .span5 {
+    width: 62.5%;
+  }
+  .span6 {
+    width: 75%;
+  }
+  .span7 {
+    width: 87.5%;
+  }
+  .span8 {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 1023px) {
+  
+}
+
+/* Header Styles */
+
+header h1 {
+  margin: 0;
+}
+header h4 {
+  margin-top: 0;
+}
+
+/* Bio Styles */
+
+.bio {
+  font-size: .9em;
+  color: #333;
+}
+
+.sidebar section{
+  margin-bottom: 20px;
+}
+
+/* Post Styles */
+
+.post h3 {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DDD;
+}
+
+.postfooter {
+  margin: 40px 0 20px;
+}
+
+.meta {
+  font-size: .85em;
+  
+}
+.metasplit {
+  padding-left: 5px;
+  margin-left: 5px;
+  border-left: 1px solid #aaa;
+}
+
+.category {
+  font-style: italic;
+}
+
+/* Footer Styles*/
+footer {
+  margin: 20px 0;
+  padding-top: 10px;
+  border-top: 1px solid #DDD;
+}
+
+
