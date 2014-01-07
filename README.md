@@ -1,4 +1,4 @@
-# Advance Web Applications with Ruby on Rails
+# Advance Web Applications: Rails
 
 The goal of this class is to introduce students to advanced concepts of building web applications using Ruby on Rails. Students will learn the importance of maintainable application architecture through MVC and CRUD design patterns. Git, a version control system, will be utilized to demonstrate the value of code history, while using it to track each student’s progress.
 
