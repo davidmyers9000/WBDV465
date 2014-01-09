@@ -22,8 +22,285 @@ title: "Week 1"
     <section>
       <section data-markdown>
         <script type="text/template">
-        ## TITLE
+        # Introductions
         
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        # Me first..
+        ### Matt Duffy
+        #### mttdffy@gmail.com
+        #### Full Stack Developer @ [Tamman](http://www.tammantech.com)
+        #### Drexel Digital Media Alum
+
+        <br>
+
+        __Do not call me__ professor or Mr. Duffy, Matt is fine
+
+
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        # Your turn!
+
+        - Name
+        - Major / Year
+        - Experience in web development
+        - Why are you taking this course?
+        - What do you want to be doing in 5 years?
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        # Course Overview
+
+        Syllabus overview 
+        <br>  
+        follow along: https://github.com/mttdffy/WBDV465/blob/master/syllabus.md
+        </script>
+      </section>
+    </section>
+
+    <section>
+      <section data-markdown>
+        <script type="text/template">
+        # Lets Go!
+        
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## If you have questions, please stop me and ask.
+        I often forget to stop and ask if you have questions
+
+        <br>
+        _"There are (almost) no stupid questions"_ - Matt Duffy
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ### Bare with me, you are the alpha user group for this course.
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        1. Concepts
+        2. Process
+        1. Tools
+        3. Setup
+        4. Tutorial / Walkthrough 
+        </script>
+      </section>
+    </section>
+
+    <section>
+      <section data-markdown>
+        <script type="text/template">
+        # Part 1: Concepts
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        # CRUD
+        __C__reate, __R__ead, __U__pdate, __D__elete
+
+        basic functions of persisting data in your application
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## CRUD maps to http methods
+        ```
+        Create -> POST
+        Read   -> GET
+        Update -> PUT / PATCH
+        Delete -> DELETE
+        ```
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        # MVC
+        __M__odel __V__iew __C__ontroller
+
+        software design pattern for architecting applications. It allows you to separate the different concerns of your application from each other, creating more maintainable and scalable applications.
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## Model
+        This is your data and business logic layer
+
+        - manages interacting with the database
+        - concerns itself with manipulating / transforming data
+        - holds knowledge about attributes/fields for each object and their types
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## View
+        This is your display layer. 
+
+        - concerned with making your data presentable to the user
+        - providing interface for user input
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## Controller
+        This is your point of entry to your application.
+
+        - Manages reading in http request
+        - determines model(s) that need to be loaded
+        - determines which view(s) should be rendered
+        - manages user session and permission logic
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## REST
+        __Re__presentational __S__tate __T__ransfer
+
+        concept of software architecture that seeks to standardize access to your application. Closely related to the concept of __CRUD__
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ### Typical url shceme of a RESTful appliation
+
+        ```
+        GET     /students 
+        POST    /students
+        GET     /students/1 
+        PUT     /students/1
+        DELETE  /students/1
+        GET     /students/1/edit 
+        ```
+        </script>
+      </section>
+    </section>
+
+    <section>
+      <section data-markdown>
+        <script type="text/template">
+        # Part 2: Process
+        A quick word on project planning
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## What does your application do?
+
+        1. Start broad, what service to you want to provide
+        2. Break this down into features
+          - Things like, visitors can sign up, users can add books
+          - Write out workflows, steps needed to complete a task
+        3. Architecture site structure
+          - Main navigation
+        4. Take it one feature at a time.
+
+        </script>
+      </section>
+
+      <section>
+        <h2>Current Project @ Tamman</h2>
+        <img src="images/tamman.jpg" alt="tamman"/>
+      </section>
+    </section>
+
+    <section>
+      <section data-markdown>
+        <script type="text/template">
+        # Part 3: Tools
+        </script>
+      </section>
+      <section data-markdown>
+        <script type="text/template">
+        # Ruby
+
+        A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
+
+        - Written in C
+        - Magical (unbiased)
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ```ruby
+        # Output "I love Ruby"
+        say = "I love Ruby"
+        puts say
+
+        # Output "I *LOVE* RUBY"
+        say['love'] = "*love*"
+        puts say.upcase
+
+        # Output "I *love* Ruby"
+        # five times
+        5.times { puts say }
+
+        ```
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## Everything is an object
+
+        - OOP from the start
+        - There are no primitive data types
+        - This allows for expressive syntax 
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## Dynamic
+        Executes common processes at runtime rather than compilation. This allows for flexibility many common languages cannot achieve
+
+        - Reopening Classes
+        - On the fly type changes
+        - Seemless code integration (ruby gems)
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+         # Ruby on Rails
+         Open source web application framework ideal for rapid prototyping and large-scale applications.
+
+         - Provides an all encompassing DSL (Domain-Specific Language)
+         - Easily Configurable to swap and replace any components
+         - Convention over configuration
+         - Provides CLI (Command Line Interface) for automation and testing
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## Things to keep in mind
+
+        - Rails is just a framework, not a whole new language
+        - Following its conventions is absolutely required (OOP, MVC)
+        - It is not perfect
         </script>
       </section>
     </section>
