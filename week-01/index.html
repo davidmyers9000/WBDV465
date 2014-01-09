@@ -350,6 +350,7 @@ title: "Week 1"
         ### Things unique to GitHub
 
         - __Pull Requests__ is a method for merging two remote branches together directly from GitHub.
+        - __Fork__ allows you to clone someone elses repo and have a completely separate version for you to work on.
         - __Issues__ allows us to add comment threads to communicate with other users on whats happening in the code
         </script>
       </section>
@@ -413,10 +414,223 @@ title: "Week 1"
         <script type="text/template">
         # Part 5: Doin Stuff
 
-        Okay, we are now ready to get to work. Lets get comfortable with using git.
         </script>
       </section>
 
+      <section data-markdown>
+        <script type="text/template">
+        # Create a box in Nitrous
+
+        1. Once signed in, click the "Boxes" link in the top right nav
+        2. Click the orange "New Box" button
+        3. Select "Ruby/Rails" from the box types
+        4. Give it a name
+        5. Select a region (US East probably)
+        6. Add your resources (you should have enough N20 the default settings)
+        7. Click "Create Box"
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        # Lets level up!
+
+        Once your box is created, you should be able to open the IDE. This provides you with both a web-based code editor and a console/terminal for you to interact with. Each box has a "/workspace" directory where you will want to put all your code into. Lets do that
+
+        ```sh
+        $ cd workspace
+        $ mkdir hello_world
+        $ cd hello_world
+        $ touch hello.rb
+        ```
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## Lets write some ruby
+
+        - Go into your workspace/hello_world directory in your IDE and open `hello.rb`
+        - type the following
+
+        ```ruby 
+        #!/user/bin/env ruby
+
+        puts "Hello World!"
+        ```
+
+        - Save it! (File>Save or CMD+s)
+        - Go into the console and type
+
+        ```sh
+        $ ruby hello.rb
+        #=> Hello World!
+        ```
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## Lets put this into git!
+
+        ```sh
+        $ git init
+        $ git add hello.rb
+        $ git status
+        $ git commit -m "my first commit!"
+        ```
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## Uh-Oh!
+
+        Looks like it barked at your for not setting some git config info. No biggie. Type the following replacing "Your Name" with yours and the email address "you@example.com" with the one you used to sign up to github
+
+        ```sh
+        $ git config --global user.email "you@example.com"
+        $ git config --global user.name "Your Name"    
+        ```
+
+        Git keeps track of when and who added commits to a repo, so it wants to know this info before it lets you commit. Go ahead and try committing again.
+
+        <br>
+        #### HINT: 
+        when in the console you can use the up and down arrows to scroll through a list of commands you previous typed
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## BOOM
+        there is your first commit. If you type `git log` you can see a list of the last couple of commits made to the repo.
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## Lets get it to GitHub
+        So great, we have our local repo cookin. Lets push it on up to github. We need to do some prep work. Communicating with remote repos requires it to know who its talking to so not just anyone can commit code to it. It uses what are called SSH keys to do this.
+
+        1. In nitrous, CMD+click the "Boxes" Link in the top left
+        2. Find your box and click it.
+        3. You should see a link "Reveal Public Key", click it
+        4. Once it pops up, you can click the green scissor icon to copy your box ssh keys
+        1. Now, go into GitHub and sign in. 
+        2. On the top right, there is a tool-like icon for account settings, click it.
+        3. Find the "SSH Keys" tab on the left sidebar nav, click it.
+        4. Find the "Add SSH keys" button in the middle of the page
+        5. Give these keys a title so you know what they are for
+        6. Then paste your keys into the Key field.
+        7. Click "Add Key"
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        # Create a repo on GitHub
+        Okay, cool, now we have settled.
+
+        1. On the top right of github there is a plus icon. Click it
+        2. Choose "New repository"
+        3. In repository name, enter "hello-world"
+        4. Dont worry about the other options.
+        5. Hit "Create repository", This will take you to your new repo
+        6. Find the URL field that has a url like `git@github.com:yourusername/hello-world.git`
+        7. Hit the clipboard icon next to it to copy this url
+        </script>
+      </section>
+
+      <section data-markdown class="highlight-small">
+        <script type="text/template">
+        ## Push to Github
+
+        - In your IDE, go to the console and type the following, replace the url with the one you copied:
+
+        ```sh
+        $ git remote add origin git@github.com:yourusername/hello-world.git
+        $ git push -u origin master
+        ```
+
+        - It will ask if you want to continue, type "yes"
+        - If you pop back into GitHub, you should now see your code!
+
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## OKAY, There we go. 
+
+        A little ruby, a little git.
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## Lets clone
+        So if you want to start jammin on existing code, how do you do it? Well if it's someone elses repo, its as easy as cloning on github and then cloning it down to your nitrous box.
+
+        1. Go to https://github.com/mttdffy/wbdv465-hello
+        2. At the top right, you'll see a "Fork" button, click it
+        3. It will clone my repo to your account.
+        4. Once there, you can find the "clone URl" on the bottom of the right sidebar
+        5. Copy the url that looks like the one we copied earlier.
+        6. Go into nitrous and do the following
+
+        ```sh
+        $ cd ../hello-world
+        $ git clone git@github.com:yourusername/wbdv465-hello.git
+        $ cd wvdv465-hello
+        $ ruby example.rb
+        ```
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## NICE!
+        you should now have a copy of this code locally that outputs my name 3 times.
+
+        Lets make it your own.
+
+        - In the Nitrous IDE, open the example.rb
+        - Find the like that sets name equal to mine and change it to yours
+        - Save the file and run the ruby command again in the console
+        - It should now output your name 3 times
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## Lets commit this change and push it up to github
+
+        ```sh
+        $ git add example.rb
+        $ git commit -m "making it my own!"
+        $ git push origin master
+        ```
+
+        Since theres already a git repo, theres no need to `init` or add a remote. We can simply stage the change we made and push it to github. If you go to your repo on github, you should be able to see the change. MONEY.
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## PHEW
+
+        Thats a lot to take in. But hopefully you're getting the swing of things.
+        </script>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+        ## A Quick Rails example
+
+        To close the class, I just want to show you just how quickly you can start building applications with rails. We'll start getting into detail next week.
+        </script>
+      </section>
 
     </section>
 
@@ -431,28 +645,21 @@ title: "Week 1"
 
       <section data-markdown>
         <script type="text/template">
-        ## Homework Title: 
+        ## Get Comfortable
 
-        _Due Midnight the night before next class_
+        Do the following interactive lessions to help cement some base knowledge on git and ruby
 
-        </script>
-      </section>
+        - [Try Git](http://try.github.io/)
+        - [Try Ruby](http://tryruby.org/)
 
-
-      <section data-markdown>
-        <script type="text/template">
-        ### How to turn in homework
-
-        Commit your work to a "week-01" branch of your working repository.
         </script>
       </section>
 
       <section data-markdown>
         <script type="text/template">
         ### Reading Assignment: 
-        #### _Due: Prior to next class_
 
-        - Read Chapter X
+        - Read Chapter 1 of Jump Start Rails
         </script>
       </section>
     </section>
